@@ -344,7 +344,11 @@ async function Option1_2_2TestDifferentNumberOfQueries(peers) {
 }
 
 async function main() {
-  const peers = await setup();
+  const verbose = false;
+  const peers = await setup(verbose);
+  // await testBroadcast(peers);
+  // await testBasicSearch(peers);
+  // await testNoneExistFile(peers);
   // await testSelfContains(peers);
   // await Option1_1TestBaselineMeasurement(peers);
   // await Option1_2_1TestSharedFileWithSameQuery(peers);
