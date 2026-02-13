@@ -50,8 +50,6 @@ All communication occurs over a shared PubSub topic.
 const TOPIC = "Hub-1107-P2P";
 ```
 
----
-
 ## Messages
 
 There are three types of messages: `broadcast`, `search`, and `search_result`.
